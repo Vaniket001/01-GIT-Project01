@@ -13,6 +13,7 @@ public class GitCoding01 {
 
 		for (int i = 1; i <= no; i++) {
 			System.out.println("Welcome to learn GIT Concept");
+			System.out.println("Thank You");
 		}
 	}
 
