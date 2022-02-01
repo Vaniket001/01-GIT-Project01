@@ -15,6 +15,7 @@ public class GitCoding01 {
 			System.out.println("Welcome to learn GIT Concept");
 			System.out.println("Thank You");
 			System.out.println("Everything is ok");
+			System.out.println("Learning git stash command");
 		}
 	}
 
