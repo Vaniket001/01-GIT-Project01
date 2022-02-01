@@ -3,6 +3,11 @@ package com.coding.git.practice;
 public class GitCoding01 {
 
 	public static void main(String[] args) {
+		
+		int a=12;
+		int b=51;
+		String str="Hello Wolrd";
+		System.out.println(str + ", Sum is : " + a + b);
 
 		// 01. Simple printing the name...
 		printName(3);
