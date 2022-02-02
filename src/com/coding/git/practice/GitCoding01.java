@@ -12,8 +12,13 @@ public class GitCoding01 {
 		// 01. Simple printing the name...
 		printName(3);
 		
-		//03. Sum og two numbers...
-		System.out.println("Sum of two numbers is :" + sum(5,11));
+
+		// 02. Print name in captal letters
+		System.out.println(toUpperCase("Good Morning, Vikash"));
+		
+		//03. Sum of two numbers
+	   	System.out.println("Sum of two numbers is : " + sum(5,11));
+
 
 	}
 
@@ -28,9 +33,20 @@ public class GitCoding01 {
 		}
 	}
 	
+
 	//03.
 	public static int sum(int a, int b) {
 		return a + b;
 	}
+
+	//02.
+	public static String toUpperCase(String str) {
+	
+		String res=str.toUpperCase();
+		return res;
+	}
+	
+	
+
 
 }
