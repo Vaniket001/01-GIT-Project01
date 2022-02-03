@@ -18,6 +18,9 @@ public class GitCoding01 {
 		
 		//03. Sum of two numbers
 	   	System.out.println("Sum of two numbers is : " + sum(5,11));
+	   	
+	   	// 04. Counting numbers...
+	   	count(10);
 
 
 	}
@@ -32,12 +35,6 @@ public class GitCoding01 {
 			System.out.println("Learning git stash command");
 		}
 	}
-	
-
-	//03.
-	public static int sum(int a, int b) {
-		return a + b;
-	}
 
 	//02.
 	public static String toUpperCase(String str) {
@@ -46,6 +43,19 @@ public class GitCoding01 {
 		return res;
 	}
 	
+	//03.
+	public static int sum(int a, int b) {
+		return a + b;
+	}
+	
+	//04.
+	public static void  count(int num) {
+		
+		for(int i=1;i<=num;i++) {
+			System.out.println(i + "  "+ 2*i);
+		}
+		
+	}
 	
 
 
